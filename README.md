@@ -1,7 +1,7 @@
-# Django CSRF Token (Paw Extension)
+# Cookie to X-CSRF Token (Paw Extension)
 
-Creates a dynamic value from Django's CSRF token cookie. Using this dynamic value for header `X-CSRFToken` allows making POST requests to Django views without getting a 403 error.
+Creates a dynamic value from a cookie based X-CSRF token. Using this dynamic value for header `X-CSRF-TOKEN` allows making POST requests to a backend.
 
 ## License
 
-This Paw Extension is released under the [MIT License](LICENSE). Feel free to fork, and modify!
+This Paw Extension is released under the [MPL License](LICENSE). Feel free to fork, and modify!
